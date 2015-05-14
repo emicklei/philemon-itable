@@ -1,0 +1,39 @@
+/** Example style definitions for com.philemonworks.writer.SortableTable 
+ * 
+ **/
+.sortheadertable {
+	border: none;
+}
+.sortheader {
+	font-weight: bold;
+	color: white;
+	background-color: #0051ab;
+}
+.sortlink {
+	text-decoration: none;
+	border: none;
+	color: white;
+}
+.sortdesc {
+	width: 16px;
+	height: 16px;
+	background: white url(alphab_revsort_co.gif) no-repeat right;
+}
+.sortasc {
+	width: 16px;
+	height: 16px;
+	background: white url(alphab_sort_co.gif) no-repeat right;
+}
+.rowhighlight {
+	background-color: #d0d0f0;
+}
+.rowselected {
+	background-color: black;
+	color: white;
+}
+.roweven {
+	background-color: #f8f8ff;
+}
+.rowodd {
+	background-color: #ffffff;
+}
